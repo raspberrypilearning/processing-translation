@@ -1,4 +1,4 @@
-`Translate()` moves the screen into a different position based on coordinates. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
+`translate()` moves the screen into a different position based on coordinates. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
 
 This example moves the screen `50` to the right and `50` up after each `rect` is drawn.
 
