@@ -16,4 +16,8 @@ Create an eye
 
 eye outside
 
+iris
+
+pupil
+
 catchlight
