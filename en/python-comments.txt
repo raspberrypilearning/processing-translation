@@ -1,0 +1,19 @@
+Move screen to the middle
+
+Circle shaped head
+
+Move screen 100 left for left eye
+
+draw an eye
+
+Move screen 200 right for right eye
+
+Move screen 100 left (back to the middle)
+
+Eye colours
+
+Create an eye
+
+eye outside
+
+catchlight
