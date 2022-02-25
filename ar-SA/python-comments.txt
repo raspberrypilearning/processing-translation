@@ -1,23 +1,23 @@
-Move screen to the middle
+حرك الشاشة إلى المنتصف
 
-Circle shaped head
+حدد راس الشكل
 
-Move screen 100 left for left eye
+حرك الشاشة 100 لليسار للعين اليسرى
 
-draw an eye
+ارسم عين
 
-Move screen 200 right for right eye
+حرك الشاشة 200 لليمين للعين اليمنى
 
-Move screen 100 left (back to the middle)
+تحريك الشاشة 100 إلى اليسار (العودة إلى المنتصف)
 
-Eye colours
+ألوان العين
 
-Create an eye
+اصنع عين
 
-eye outside
+خارج العين
 
-iris
+قزحية
 
-pupil
+طالب
 
-catchlight
+الضوء
