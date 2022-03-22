@@ -1,23 +1,23 @@
-Move screen to the middle
+Déplacer l'écran vers le milieu
 
-Circle shaped head
+Tête en forme de cercle
 
-Move screen 100 left for left eye
+Déplacer l'écran de 100 vers la gauche pour l'œil gauche
 
-draw an eye
+dessiner un oeil
 
-Move screen 200 right for right eye
+Déplacer l'écran de 200 vers la droite pour l'œil droit
 
-Move screen 100 left (back to the middle)
+Déplacer l'écran de 100 vers la gauche (retour au milieu)
 
-Eye colours
+Couleurs des yeux
 
-Create an eye
+Créer un œil
 
-eye outside
+œil externe
 
 iris
 
-pupil
+pupille
 
-catchlight
+reflet spéculaire
