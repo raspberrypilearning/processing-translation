@@ -1,0 +1,23 @@
+Déplacer l'écran vers le milieu
+
+Tête en forme de cercle
+
+Déplacer l'écran de 100 vers la gauche pour l'œil gauche
+
+dessiner un oeil
+
+Déplacer l'écran de 200 vers la droite pour l'œil droit
+
+Déplacer l'écran de 100 vers la gauche (retour au milieu)
+
+Couleurs des yeux
+
+Créer un œil
+
+œil externe
+
+iris
+
+pupille
+
+reflet spéculaire
