@@ -1,23 +1,23 @@
-Move screen to the middle
+Scherm naar het midden verplaatsen
 
-Circle shaped head
+Cirkelvormig hoofd
 
-Move screen 100 left for left eye
+Verplaats het scherm 100 naar links voor het linkeroog
 
-draw an eye
+teken een oog
 
-Move screen 200 right for right eye
+Verplaats het scherm 200 naar rechts voor het rechteroog
 
-Move screen 100 left (back to the middle)
+Verplaats het scherm 100 naar links (terug naar het midden)
 
-Eye colours
+Oogkleuren
 
-Create an eye
+Maak een oog
 
-eye outside
+buitenkant van het oog
 
 iris
 
 pupil
 
-catchlight
+lichtpunt
