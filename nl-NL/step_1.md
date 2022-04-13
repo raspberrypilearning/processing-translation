@@ -44,7 +44,7 @@ In dit voorbeeld wordt `translate()` meerdere keren gebruikt om complexe ogen te
 + Vervolgens `translate(200, 0)` beweegt `200` naar rechts om het rechter `oog()` te positioneren
 + Ten slotte, `translate(-100, 0)` beweegt `100` naar links, terug naar het midden
 
-![Afbeelding van een cirkelvormig hoofd met een linker- en rechteroog](images/translate_oogs.png)
+![Afbeelding van een cirkelvormig hoofd met een linker- en rechteroog](images/translate_eyes.png)
 
 --- code ---
 ---
