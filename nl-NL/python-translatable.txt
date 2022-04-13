@@ -1,9 +1,9 @@
-draw
+tekenen
 
-eye
+oog
 
-BLUE
+BLAUW
 
-BLACK
+ZWART
 
-WHITE
+WIT
