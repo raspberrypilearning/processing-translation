@@ -1,0 +1,23 @@
+Mueve la pantalla al centro
+
+Cabeza en forma de círculo
+
+Mueve la pantalla 100 a la izquierda para el ojo izquierdo
+
+dibuja un ojo
+
+Mueve la pantalla 200 a la derecha para el ojo derecho
+
+Mueve la pantalla 100 a la izquierda (vuelve al centro)
+
+Colores de ojos
+
+Crea un ojo
+
+exterior del ojo
+
+iris
+
+pupila
+
+brillo ocular
