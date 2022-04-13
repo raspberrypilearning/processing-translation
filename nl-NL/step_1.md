@@ -1,6 +1,6 @@
-`translate()` moves the screen into a different position based on coordinates. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
+`translate()` verplaatst het scherm naar een andere positie op basis van coördinaten. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
 
-This example moves the screen `50` to the right and `50` up after each `rect` is drawn.
+Dit voorbeeld verplaatst het scherm `50` naar rechts en `50` omhoog nadat elke `rect` is getekend.
 
 --- code ---
 ---
@@ -11,9 +11,9 @@ def draw():
 
   rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) --- /code ---
 
-![Image of an original square and two translated squares. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_square.png)
+![Afbeelding van het oorspronkelijk vierkant en 2 verplaatste vierkanten. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_square.png)
 
-This example moves the screen `50` to the left and `50` down after each `ellipse` is drawn.
+In dit voorbeeld wordt het scherm `50` naar links en `50` naar beneden verplaatst nadat elke `ellips` is getekend.
 
 --- code ---
 ---
@@ -26,15 +26,15 @@ def draw():
 
 --- /code ---
 
-![Image of an original circle and two translated circles. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_circle.png)
+![Afbeelding van de oorspronkelijke cirkel en twee verplaatste cirkels. Door elke translate beweegt het vierkant <code>50</code> naar rechts en <code>50</code> naar beneden](images/translate_circle.png)
 
-In this example, `translate()` is used multiple times to draw complex eyes without duplicating all the code for a left-eye and a right-eye:
-+ First, `translate(width/2, height/2)` is used to start from the middle of the screen where an `ellipse` for the head is drawn
-+ Next,  `translate(-100, 0)` moves `100` to the left to position the left `eye()`
-+ Next, `translate(200, 0)` moves `200` to the right to position the right `eye()`
-+ Finally, `translate(-100, 0)` moves `100` to the left, back to the middle
+In dit voorbeeld wordt `translate()` meerdere keren gebruikt om complexe ogen te tekenen zonder alle code voor het linker- en het rechteroog te dupliceren:
++ Eerst wordt `translate(width/2, height/2)` gebruikt om te beginnen in het midden van het scherm waar een `ellips` voor het hoofd wordt getekend
++ Vervolgens,  `translate(-100, 0)` beweegt `100` naar links om het linker `oog()` te positioneren
++ Vervolgens `translate(200, 0)` beweegt `200` naar rechts om het rechter `oog()` te positioneren
++ Ten slotte, `translate(-100, 0)` beweegt `100` naar links, terug naar het midden
 
-![Image of a circle head with a left and right eye](images/translate_eyes.png)
+![Afbeelding van een cirkelvormig hoofd met een linker- en rechteroog](images/translate_eyes.png)
 
 --- code ---
 ---
@@ -53,10 +53,10 @@ def draw():
 
 def eye():
 
-# Eye colours
+# Oogkleuren
   BLUE = color(1, 32, 100) BLACK = color(0, 0, 0) WHITE = color(255, 255, 255)
 
-# Create an eye
+# Maak een oog
   stroke(BLACK) fill(WHITE) ellipse(0, 0, 150, 150) # eye outside no_stroke() fill(BLUE) # iris ellipse(0, 0, 80, 80) fill(BLACK) # pupil ellipse(0, 0, 35, 35) fill(WHITE, 70) ellipse(-25, -20, 30, 30) # catchlight ellipse(25, 25, 10, 10) # catchlight
 
 --- /code ---
