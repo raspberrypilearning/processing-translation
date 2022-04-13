@@ -1,0 +1,23 @@
+Scherm naar het midden verplaatsen
+
+Cirkelvormig hoofd
+
+Verplaats het scherm 100 naar links voor het linkeroog
+
+teken een oog
+
+Verplaats het scherm 200 naar rechts voor het rechteroog
+
+Verplaats het scherm 100 naar links (terug naar het midden)
+
+Oogkleuren
+
+Maak een oog
+
+buitenkant van het oog
+
+iris
+
+pupil
+
+lichtpunt
