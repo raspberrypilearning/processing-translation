@@ -20,4 +20,4 @@ iris
 
 pupila
 
-catchlight
+brillo ocular
