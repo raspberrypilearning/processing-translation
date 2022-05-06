@@ -1,0 +1,23 @@
+Symud y sgrin i'r canol
+
+Pen siâp cylch
+
+Symud sgrin 100 i'r chwith ar gyfer y llygad chwith
+
+llunio llygad
+
+Symud sgrin 200 i'r dde ar gyfer y llygad dde
+
+Symud y sgrin 100 i'r chwith (yn ôl i'r canol)
+
+Lliwiau llygaid
+
+Creu llygad
+
+tu allan y llygad
+
+iris
+
+cannwyll llygad
+
+goleubwynt
