@@ -1,23 +1,23 @@
-Move screen to the middle
+Symud y sgrin i'r canol
 
-Circle shaped head
+Pen siâp cylch
 
-Move screen 100 left for left eye
+Symud sgrin 100 i'r chwith ar gyfer y llygad chwith
 
-draw an eye
+llunio llygad
 
-Move screen 200 right for right eye
+Symud sgrin 200 i'r dde ar gyfer y llygad dde
 
-Move screen 100 left (back to the middle)
+Symud y sgrin 100 i'r chwith (yn ôl i'r canol)
 
-Eye colours
+Lliwiau llygaid
 
-Create an eye
+Creu llygad
 
-eye outside
+tu allan y llygad
 
 iris
 
-pupil
+cannwyll llygad
 
-catchlight
+goleubwynt
