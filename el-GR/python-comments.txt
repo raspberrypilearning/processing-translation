@@ -1,23 +1,23 @@
-Move screen to the middle
+Μετακίνησε την οθόνη στο κέντρο
 
-Circle shaped head
+Κεφάλι σε σχήμα κύκλου
 
-Move screen 100 left for left eye
+Μετακίνησε την οθόνη 100 προς τα αριστερά για το αριστερό μάτι
 
-draw an eye
+σχεδίασε ένα μάτι
 
-Move screen 200 right for right eye
+Μετακίνησε την οθόνη 200 προς τα δεξιά για το δεξιό μάτι
 
-Move screen 100 left (back to the middle)
+Μετακίνησε την οθόνη 100 αριστερά (πίσω στο κέντρο)
 
-Eye colours
+Χρώματα ματιών
 
-Create an eye
+Δημιούργησε ένα μάτι
 
-eye outside
+εξωτερικό του ματιού
 
-iris
+ίριδα
 
-pupil
+κόρη του ματιού
 
-catchlight
+λαμπύρισμα
