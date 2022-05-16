@@ -1,6 +1,6 @@
-`translate()` moves the screen into a different position based on coordinates. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
+Η συνάρτηση `translate()` μετακινεί την οθόνη σε διαφορετική θέση με βάση τις συντεταγμένες. Τα σχήματα στην οθόνη θα κινούνται μαζί της αλλά η εμφάνισή τους δεν θα αλλάξει. Μια μεταφορά μπορεί να μετακινήσει την οθόνη οριζόντια, κάθετα ή διαγώνια.
 
-This example moves the screen `50` to the right and `50` up after each `rect` is drawn.
+Αυτό το παράδειγμα μετακινεί την οθόνη `50` προς τα δεξιά και `50` προς τα πάνω μετά από κάθε σχεδίαση του `rect`.
 
 --- code ---
 ---
@@ -11,9 +11,9 @@ def draw():
 
   rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) --- /code ---
 
-![Image of an original square and two translated squares. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_square.png)
+![Εικόνα ενός αρχικού τετραγώνου και δύο τετραγώνων που μεταφέρονται. Κάθε μεταφορά μετακίνησε το τετράγωνο <code>50</code> προς τα δεξιά και <code>50</code> προς τα κάτω](images/translate_square.png)
 
-This example moves the screen `50` to the left and `50` down after each `ellipse` is drawn.
+Αυτό το παράδειγμα μετακινεί την οθόνη `50` προς τα αριστερά και `50` προς τα κάτω μετά τη σχεδίαση κάθε `ellipse`.
 
 --- code ---
 ---
@@ -26,15 +26,15 @@ def draw():
 
 --- /code ---
 
-![Image of an original circle and two translated circles. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_circle.png)
+![Εικόνα ενός αρχικού κύκλου και δύο κύκλων που μεταφέρονται. Κάθε μεταφορά μετακίνησε το τετράγωνο <code>50</code> προς τα δεξιά και <code>50</code> προς τα κάτω](images/translate_circle.png)
 
-In this example, `translate()` is used multiple times to draw complex eyes without duplicating all the code for a left-eye and a right-eye:
-+ First, `translate(width/2, height/2)` is used to start from the middle of the screen where an `ellipse` for the head is drawn
-+ Next,  `translate(-100, 0)` moves `100` to the left to position the left `eye()`
-+ Next, `translate(200, 0)` moves `200` to the right to position the right `eye()`
-+ Finally, `translate(-100, 0)` moves `100` to the left, back to the middle
+Σε αυτό το παράδειγμα, το `translate()` χρησιμοποιείται πολλές φορές για να σχεδιάσει περίπλοκα μάτια χωρίς να αντιγράψει όλο τον κώδικα για ένα αριστερό και ένα δεξί μάτι:
++ Αρχικά, το `translate (width/2, height/2)` χρησιμοποιείται για να ξεκινήσει από το κέντρο της οθόνης όπου σχεδιάζεται μια `ellipse` για το κεφάλι
++ Στη συνέχεια,  το `translate(-100, 0)` μετακινείται `100` προς τα αριστερά για να τοποθετήσει το αριστερό `eye()`
++ Στη συνέχεια, το `translate(200, 0)` μετακινείται `200` προς τα δεξιά για να τοποθετήσει το δεξί `eye()`
++ Τέλος, το `translate(-100, 0)` μετακινείται `100` προς τα αριστερά, πίσω στο κέντρο
 
-![Image of a circle head with a left and right eye](images/translate_eyes.png)
+![Εικόνα ενός κυκλικού κεφαλιού με αριστερό και δεξί μάτι](images/translate_eyes.png)
 
 --- code ---
 ---
@@ -53,10 +53,10 @@ def draw():
 
 def eye():
 
-# Eye colours
+# Χρώματα ματιών
   BLUE = color(1, 32, 100) BLACK = color(0, 0, 0) WHITE = color(255, 255, 255)
 
-# Create an eye
+# Δημιούργησε ένα μάτι
   stroke(BLACK) fill(WHITE) ellipse(0, 0, 150, 150) # eye outside no_stroke() fill(BLUE) # iris ellipse(0, 0, 80, 80) fill(BLACK) # pupil ellipse(0, 0, 35, 35) fill(WHITE, 70) ellipse(-25, -20, 30, 30) # catchlight ellipse(25, 25, 10, 10) # catchlight
 
 --- /code ---
