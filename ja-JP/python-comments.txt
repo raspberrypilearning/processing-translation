@@ -1,23 +1,23 @@
-Move screen to the middle
+画面を中央に移動する
 
-Circle shaped head
+円形の頭
 
-Move screen 100 left for left eye
+左目を描くのに画面を100だけ左に移動する
 
-draw an eye
+目を描く
 
-Move screen 200 right for right eye
+右目を描くのに画面を200だけ右に移動する
 
-Move screen 100 left (back to the middle)
+画面を100だけ左に移動する（中央に戻る）
 
-Eye colours
+目の色
 
-Create an eye
+目を作る
 
-eye outside
+目の外側
 
-iris
+虹彩
 
-pupil
+瞳
 
-catchlight
+瞳に移りこんだ光
