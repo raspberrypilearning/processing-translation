@@ -1,6 +1,6 @@
-`translate()` verplaatst het scherm naar een andere positie op basis van coördinaten. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
+`translate()` verplaatst het scherm naar een andere positie op basis van coördinaten. De items op het scherm bewegen mee, maar hun uiterlijk verandert niet. Een translatie kan het scherm horizontaal, verticaal of diagonaal bewegen.
 
-Dit voorbeeld verplaatst het scherm `50` naar rechts en `50` omhoog nadat elke `rect` is getekend.
+Dit voorbeeld verplaatst het scherm `50` naar rechts en `50` omhoog elke keer nadat een `rect` is getekend.
 
 --- code ---
 ---
@@ -14,10 +14,9 @@ def draw():
   rect(150, 150, 100, 100)
   translate(50,-50)
   rect(150, 150, 100, 100)
-
 --- /code ---
 
-![Afbeelding van het oorspronkelijk vierkant en 2 verplaatste vierkanten. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_square.png)
+![Afbeelding van het oorspronkelijke vierkant en 2 verplaatste vierkanten. Door elke translatie beweegt het vierkant <code>50</code> naar rechts en <code>50</code> naar beneden](images/translate_square.png)
 
 In dit voorbeeld wordt het scherm `50` naar links en `50` naar beneden verplaatst nadat elke `ellips` is getekend.
 
@@ -42,7 +41,7 @@ In dit voorbeeld wordt `translate()` meerdere keren gebruikt om complexe ogen te
 + Eerst wordt `translate(width/2, height/2)` gebruikt om te beginnen in het midden van het scherm waar een `ellips` voor het hoofd wordt getekend
 + Vervolgens,  `translate(-100, 0)` beweegt `100` naar links om het linker `oog()` te positioneren
 + Vervolgens `translate(200, 0)` beweegt `200` naar rechts om het rechter `oog()` te positioneren
-+ Ten slotte, `translate(-100, 0)` beweegt `100` naar links, terug naar het midden
++ Tenslotte, `translate(-100, 0)` beweegt `100` naar links, terug naar het midden
 
 ![Afbeelding van een cirkelvormig hoofd met een linker- en rechteroog](images/translate_eyes.png)
 
@@ -58,20 +57,20 @@ def draw():
   ellipse(0, 0, 300, 300) # Cirkelvormig hoofd
   
   translate(-100, 0) # Verplaats het scherm 100 naar links voor het linkeroog
-  oog() # teken een oog
+  oog() #teken een oog
     
   translate(200, 0) # Verplaats het scherm 200 naar rechts voor het rechteroog
-  oog() # teken een oog
+  oog() #teken een oog
   
   translate(-100, 0) # Verplaats het scherm 100 naar links (terug naar het midden)
 
 def oog():
 
 # Oogkleuren
-  BLAUW = color(1, 32, 100)
-  ZWART = color(0, 0, 0)
+  BLAUW = color(1, 32, 100) 
+  ZWART = color(0, 0, 0) 
   WIT = color(255, 255, 255)
-  
+
 # Maak een oog
   stroke(ZWART)
   fill(WIT)
@@ -86,5 +85,3 @@ def oog():
   ellipse(25, 25, 10, 10) # lichtpunt
 
 --- /code ---
-
-***
