@@ -1,23 +1,23 @@
-Move screen to the middle
+Переміщення екрана в центр
 
-Circle shaped head
+Головка у формі кола
 
-Move screen 100 left for left eye
+Переміщення екрана на 100 вліво для лівого ока
 
-draw an eye
+малювання ока
 
-Move screen 200 right for right eye
+Переміщення екрана на 200 вправо для правого ока
 
-Move screen 100 left (back to the middle)
+Переміщення екрана на 100 вліво (назад до центру)
 
-Eye colours
+Кольори очей
 
-Create an eye
+Створення ока
 
-eye outside
+зовнішня сторона ока
 
-iris
+райдужна оболонка
 
-pupil
+зіниця
 
-catchlight
+світлові відблиски
