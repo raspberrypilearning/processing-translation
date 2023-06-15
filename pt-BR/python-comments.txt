@@ -1,0 +1,23 @@
+Move a tela para o meio
+
+Cabeça em forma de círculo
+
+Move a tela 100 para a esquerda para o olho esquerdo
+
+desenha um olho
+
+Move a tela 200 para a direita para o olho direito
+
+Move a tela 100 para a esquerda (de volta ao meio)
+
+Cores dos olhos
+
+Criar um olho
+
+contorno do olho
+
+íris
+
+pupila
+
+reflexo da luz
