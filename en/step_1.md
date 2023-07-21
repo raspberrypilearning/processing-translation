@@ -50,17 +50,17 @@ language: python
 ---
 
 def draw():
-    translate(width/2, height/2) # Move screen to the middle 
+    translate(width/2, height/2)  # Move screen to the middle 
     stroke(0, 0, 0)
-    ellipse(0, 0, 300, 300) # Circle shaped head
+    ellipse(0, 0, 300, 300)  # Circle shaped head
     
-    translate(-100, 0) # Move screen 100 left for left eye
+    translate(-100, 0)  # Move screen 100 left for left eye
     eye() #draw an eye
     
-    translate(200, 0) # Move screen 200 right for right eye
+    translate(200, 0)  # Move screen 200 right for right eye
     eye() #draw an eye
     
-    translate(-100, 0) # Move screen 100  left (back to the middle)
+    translate(-100, 0)  # Move screen 100  left (back to the middle)
 
 def eye():
     # Eye colours
@@ -71,14 +71,14 @@ def eye():
     # Create an eye
     stroke(BLACK)
     fill(WHITE)
-    ellipse(0, 0, 150, 150) # eye outside
+    ellipse(0, 0, 150, 150)  # eye outside
     no_stroke()
-    fill(BLUE) # iris
+    fill(BLUE)  # iris
     ellipse(0, 0, 80, 80)
-    fill(BLACK) # pupil
+    fill(BLACK)  # pupil
     ellipse(0, 0, 35, 35)
     fill(WHITE, 70)
-    ellipse(-25, -20, 30, 30) # catchlight
-    ellipse(25, 25, 10, 10) # catchlight
+    ellipse(-25, -20, 30, 30)  # catchlight
+    ellipse(25, 25, 10, 10)  # catchlight
   
 --- /code ---
