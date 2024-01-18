@@ -1,67 +1,67 @@
-`translate()` moves the screen into a different position based on coordinates. The shapes on the screen will move with it but their appearance will not change. A translation can move the screen horizontally, vertically or diagonally.
+`translate()` sposta lo schermo in una posizione diversa in base alle coordinate. Le forme sullo schermo si sposteranno con esso ma il loro aspetto non cambierà. Una traslazione può spostare lo schermo in orizzontale, verticale o diagonale.
 
-This example moves the screen `50` to the right and `50` up after each `rect` is drawn.
+Questo esempio sposta lo schermo di `50` a destra e di `50` in alto dopo aver disegnato ogni `rect`.
 
 --- code ---
 ---
 language: python
 ---
 
-def draw(): rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100)
+def disegna(): rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100) translate(50,-50) rect(150, 150, 100, 100)
 
 --- /code ---
 
-![Image of an original square and two translated squares. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_square.png)
+![Immagine di un quadrato originale e di due quadrati traslati. Ogni traslazione ha spostato il quadrato a destra di <code>50</code> e in basso di <code>50</code>](images/translate_square.png)
 
-This example moves the screen `50` to the left and `50` down after each `ellipse` is drawn.
+Questo esempio sposta lo schermo di `50` a sinistra e di `50` verso il basso dopo aver disegnato ogni `ellipse`.
 
 --- code ---
 ---
 language: python
 ---
 
-def draw(): ellipse(200, 200, 100, 100) translate(-50,50) ellipse(200, 200, 100, 100) translate(-50,50) ellipse(200, 200, 100, 100)
+def disegna(): ellipse(200, 200, 100, 100) translate(-50,50) ellipse(200, 200, 100, 100) translate(-50,50) ellipse(200, 200, 100, 100)
 
 --- /code ---
 
-![Image of an original circle and two translated circles. Each translation moved the square right <code>50</code> and down <code>50</code>](images/translate_circle.png)
+![Immagine di un cerchio originale e di due cerchi traslati. Ogni traslazione spostava il quadrato a destra di <code>50</code> e in basso di <code>50</code>](images/translate_circle.png)
 
-In this example, `translate()` is used multiple times to draw complex eyes without duplicating all the code for a left-eye and a right-eye:
-+ First, `translate(width/2, height/2)` is used to start from the middle of the screen where an `ellipse` for the head is drawn
-+ Next,  `translate(-100, 0)` moves `100` to the left to position the left `eye()`
-+ Next, `translate(200, 0)` moves `200` to the right to position the right `eye()`
-+ Finally, `translate(-100, 0)` moves `100` to the left, back to the middle
+In questo esempio, `translate()` viene utilizzato più volte per disegnare occhi complessi senza duplicare tutto il codice per l'occhio sinistro e l'occhio destro:
++ Innanzitutto, `translate(width/2, height/2)` viene utilizzato per iniziare dal centro dello schermo dove viene disegnata una `ellipse` per la testa
++ Successivamente,  `translate(-100, 0)` sposta lo schermo di `100` a sinistra per posizionare l'`occhio()` sinistro
++ Quindi, `translate(200, 0)` sposta di `200` a destra per posizionare l'`occhio()` destro
++ Infine, `translate(-100, 0)` sposta di `100` a sinistra, di nuovo al centro
 
-![Image of a circle head with a left and right eye](images/translate_eyes.png)
+![Immagine di una testa circolare con un occhio sinistro e uno destro](images/translate_eyes.png)
 
 --- code ---
 ---
 language: python
 ---
 
-def draw(): translate(width/2, height/2)  # Move screen to the middle stroke(0, 0, 0) ellipse(0, 0, 300, 300)  # Circle shaped head
+def disegna(): translate(width/2, height/2)  # Posiziona lo schermo al centro stroke(0, 0, 0) ellipse(0, 0, 300, 300)  # Testa a forma di cerchio
 
-    translate(-100, 0)  # Move screen 100 left for left eye
-    eye() #draw an eye
+    translate(-100, 0)  # Sposta lo schermo di 100 a sinistra per l'occhio sinistro
+    occhio() # disegna un occhio
     
-    translate(200, 0)  # Move screen 200 right for right eye
-    eye() #draw an eye
+    translate(200, 0)  # Sposta lo schermo di 200 a destra per l'occhio destro
+    occhio() # disegna un occhio
     
-    translate(-100, 0)  # Move screen 100  left (back to the middle)
+    translate(-100, 0)  # Sposta lo schermo di 100 a sinistra (torna al centro)
 
-def eye(): # Eye colours BLUE = color(1, 32, 100) BLACK = color(0, 0, 0) WHITE = color(255, 255, 255)
+def occhio(): # Colori dell'occhio BLU = color(1, 32, 100) NERO = color(0, 0, 0) BIANCO = color(255, 255, 255)
 
-    # Create an eye
-    stroke(BLACK)
-    fill(WHITE)
-    ellipse(0, 0, 150, 150)  # eye outside
+    # Crea un occhio
+    stroke(NERO)
+    fill(BIANCO)
+    ellipse(0, 0, 150, 150)  # occhio esterno
     no_stroke()
-    fill(BLUE)  # iris
+    fill(BLU)  # iride
     ellipse(0, 0, 80, 80)
-    fill(BLACK)  # pupil
+    fill(NERO)  # pupilla
     ellipse(0, 0, 35, 35)
-    fill(WHITE, 70)
-    ellipse(-25, -20, 30, 30)  # catchlight
-    ellipse(25, 25, 10, 10)  # catchlight
+    fill(BIANCO, 70)
+    ellipse(-25, -20, 30, 30)  # riflesso
+    ellipse(25, 25, 10, 10)  # riflesso
 
 --- /code ---
