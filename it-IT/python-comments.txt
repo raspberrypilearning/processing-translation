@@ -1,0 +1,23 @@
+Sposta lo schermo al centro
+
+Testa a forma di cerchio
+
+Sposta lo schermo di 100 a sinistra per l'occhio sinistro
+
+disegna un occhio
+
+Sposta lo schermo di 200 a destra per l'occhio destro
+
+Sposta lo schermo di 100 a sinistra (torna al centro)
+
+Colori dell'occhio
+
+Crea un occhio
+
+occhio esterno
+
+iride
+
+pupilla
+
+riflesso
