@@ -1,0 +1,9 @@
+disegna
+
+occhio
+
+BLU
+
+NERO
+
+BIANCO
